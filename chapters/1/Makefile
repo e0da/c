@@ -1,5 +1,5 @@
-BIN="bin"
-CC="cc"
+BIN = bin
+CC = cc
 
 all: hello
 
