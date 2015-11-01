@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define LOWER 0   /* lower limit of table */
-#define UPPER 300 /* upper limite of table */
+#define UPPER 300 /* upper limit of table */
 #define STEP  20  /* step size */
 
 /* Formulae to convert Fahrenheit to Celcius and vice versa */
