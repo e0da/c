@@ -1,16 +1,11 @@
-BIN = bin
+BINS = hello temp chars count squish escape print-escapables
 CC = cc
 
-all: hello temp
+all: ${BINS}
 
-hello: bin hello.c
-	${CC} -o ${BIN}/hello hello.c
+%: %.c
+	${CC} -o $@ $<
 
-temp: bin temp.c
-	${CC} -o ${BIN}/temp temp.c
-
-bin:
-	mkdir -p ${BIN}
-
+.PHONY: clean
 clean:
-	rm -rf bin
+	rm ${BINS}
