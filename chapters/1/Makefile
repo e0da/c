@@ -1,4 +1,4 @@
-BINS = hello temp chars count squish escape print-escapables
+BINS = hello temp chars count squish escape print-escapables one-word-per-line
 CC = cc
 
 all: ${BINS}
