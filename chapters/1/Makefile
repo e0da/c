@@ -1,5 +1,5 @@
 BINS = hello temp chars count squish escape print-escapables one-word-per-line \
-			 freqhist
+			 freqhist freqchar
 CC = cc
 
 all: ${BINS}
