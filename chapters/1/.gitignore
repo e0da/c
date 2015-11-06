@@ -10,3 +10,5 @@ one-word-per-line
 freqhist
 freqchar
 1-16-longest-line-mod
+*.dSYM
+1-17-lines-longer-than-80-chars
