@@ -1,5 +1,6 @@
 BINS = hello temp chars count squish escape print-escapables one-word-per-line \
-			 freqhist freqchar 1-16-longest-line-mod 1-17-lines-longer-than-80-chars
+			 freqhist freqchar 1-16-longest-line-mod 1-17-lines-longer-than-80-chars \
+			 1-18-remove-trailing-white-space-and-blank-lines
 CC = cc
 CC_OPTS = -g
 

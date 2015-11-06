@@ -12,3 +12,4 @@ freqchar
 1-16-longest-line-mod
 *.dSYM
 1-17-lines-longer-than-80-chars
+1-18-remove-trailing-white-space-and-blank-lines
