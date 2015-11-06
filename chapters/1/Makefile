@@ -10,4 +10,4 @@ all: ${BINS}
 
 .PHONY: clean
 clean:
-	rm ${BINS}
+	rm -rf ${BINS} *.dSYM
